@@ -8,7 +8,7 @@ export class User {
   @Property()
   username!: string;
 
-  @Property()
+  @Property({ type: 'bigint' })
   document!: number;
 
   @Property()
